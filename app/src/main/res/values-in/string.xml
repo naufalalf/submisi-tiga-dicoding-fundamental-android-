@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="app_name">Submisi Tiga</string>
+
+    <string name="tab1">Film</string>
+    <string name="tab2">Acara TV</string>
+    <string name="nama_movie">Nama Film</string>
+    <string name="cari">Cari</string>
+    <string name="title">Judul</string>
+    <string name="popularitytv">Popularitas Acara TV</string>
+    <string name="popularity">Popularitas Film</string>
+    <string name="description">Deskripsi</string>
+    <string name="date">Tanggal Rilis</string>
+
+    <string name="juduldetil">JUDUL FILM</string>
+    <string name="judultvdetil">JUDUL ACARA TV</string>
+    <string name="rilisdetil">Tanggal Rilis :</string>
+    <string name="ratingdetil">Rating :</string>
+    <string name="popularitasdetil">Popularitas :</string>
+    <string name="sinopsisdetil">Sinopsis :</string>
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit varius dui, non ultricies ante luctus finibus. Cras facilisis libero a tellus sollicitudin efficitur. Nulla dictum pellentesque elit. Nullam nec imperdiet libero. Donec fermentum sed nulla a bibendum. Morbi finibus volutpat lectus, quis condimentum diam efficitur et. Cras vel iaculis enim. Cras a vestibulum diam. Fusce ac est placerat, volutpat nunc eu, congue urna.</string>
+    <string name="gantibahasa">Ganti Bahasa</string></resources>

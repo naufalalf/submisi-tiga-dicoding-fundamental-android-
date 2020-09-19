@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string name="app_name">Submision Three</string>
+
+    <string name="tab1">Movie</string>
+    <string name="tab2">TV Show</string>
+    <string name="nama_movie">Film Name</string>
+    <string name="cari">Search</string>
+    <string name="title">Title</string>
+    <string name="popularitytv">TV Show Popularity</string>
+    <string name="popularity">Film Popularity</string>
+    <string name="description">Description</string>
+    <string name="date">Release Date</string>
+
+    <string name="juduldetil">FILM TITLE</string>
+    <string name="judultvdetil">TV SHOW TITLE</string>
+    <string name="rilisdetil">Release Date :</string>
+    <string name="ratingdetil">Rate :</string>
+    <string name="popularitasdetil">Popularity :</string>
+    <string name="sinopsisdetil">Synopsis :</string>
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit varius dui, non ultricies ante luctus finibus. Cras facilisis libero a tellus sollicitudin efficitur. Nulla dictum pellentesque elit. Nullam nec imperdiet libero. Donec fermentum sed nulla a bibendum. Morbi finibus volutpat lectus, quis condimentum diam efficitur et. Cras vel iaculis enim. Cras a vestibulum diam. Fusce ac est placerat, volutpat nunc eu, congue urna.</string>
+    <string name="gantibahasa">Change Language</string></resources>

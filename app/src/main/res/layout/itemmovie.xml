@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/cv_movie"
+    app:cardBackgroundColor="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_movie">
+        <ImageView
+            android:id="@+id/gambarMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvJudulFilm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/gambarMovie"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#000"
+            android:textAllCaps="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            tools:text="@string/title" />
+
+        <TextView
+            android:id="@+id/tvRilisFilm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/gambarMovie"
+            android:layout_below="@id/tvJudulFilm"
+            android:layout_alignParentEnd="true"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:textColor="#000"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="13sp"
+            tools:text="Tahun Rilis" />
+
+        <TextView
+            android:id="@+id/tvOverviewFilm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRilisFilm"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/gambarMovie"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textSize="16sp"
+            tools:text="@string/loremipsum" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
